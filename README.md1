@@ -1,0 +1,53 @@
+# 🛍️ Análisis de Productos Digitales con Python
+
+Este proyecto analiza una lista de productos digitales como cursos, ebooks, software y plantillas, clasificándolos según su precio y aplicando descuentos basados en el stock disponible. Es un ejercicio práctico para fortalecer habilidades en Python como:
+
+- Manejo de listas de diccionarios
+- Condicionales `if`, `elif`, `else`
+- Funciones personalizadas (`def`)
+- Funciones `lambda` y `sorted`
+- Cálculo de descuentos y clasificación de precios
+- Lógica de negocios aplicada a programación
+
+---
+
+## 📦 Datos utilizados
+
+Los productos tienen las siguientes características:
+- `nombre`: Nombre del producto (string)
+- `precio`: Precio individual (float)
+- `stock`: Unidades disponibles (int)
+- `tipo`: Tipo de producto (curso, plantilla, ebook, software)
+
+---
+
+## 🧠 ¿Qué hace el script?
+
+✅ Clasifica cada producto como:
+- Muy económico
+- Rango medio
+- Premium
+
+✅ Aplica descuentos según el nivel de stock:
+- +50 unidades → 25%
+- Entre 20 y 50 unidades → 15%
+- Entre 10 y 19 unidades → 5%
+- Menos de 10 unidades → sin descuento
+
+✅ Calcula:
+- Precio final por unidad
+- Subtotales con y sin descuento
+- Total general con y sin descuento
+
+---
+
+## ✨ Tecnologías utilizadas
+
+- Python 3
+- Google Colab
+- GitHub
+
+---
+
+## 📁 Estructura del proyecto
+
